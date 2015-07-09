@@ -1,0 +1,25 @@
+<!DOCTYPE HTML> 
+<html> 
+
+<body>  
+<script>
+var n= prompt("Введите факториал");
+function Obj(){
+
+        this.factorial = function f(n){
+          if (n > 1){
+            return f(n-1)*n;
+          }
+          else{
+            return n;
+          }
+        }
+      }
+      
+      var obj = new Obj();
+      
+      alert(obj.factorial(n));
+
+</script>  
+</body> 
+</html>
