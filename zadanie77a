@@ -1,0 +1,13 @@
+<!DOCTYPE HTML> 
+<html> 
+
+<body>  
+<script>
+    var resualt = 0;
+    var n = prompt("введите степень числа 2")
+    result = Math.pow(2, n);
+    alert(result);
+ 
+</script>  
+</body> 
+</html>
